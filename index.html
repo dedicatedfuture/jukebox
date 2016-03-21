@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Disney Jukebox</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet"> 
+	<link rel="stylesheet" href="normalize.css" type="text/css">
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="jukebox.css" type="text/css">
+    <meta charset="utf-8">     
+   <meta name="viewport" content="width=device-width, initial-scale=1">   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="jukebox.js"></script>
+ 
+</head>
+<body>
+
+
+<header>
+
+<ul>
+	<li class="large">Disney Tunes</li>
+	<li class="large" id="movie"></li>
+	<li class="large" id="song"></li>
+	<li class="volumes" ><button type="button" id="volumeup"><i class="fa fa-volume-up fa-2x"></i></button></li>
+	<li><button type="button" id="volumedown"><i class="fa fa-volume-down fa-2x"></i></button></li>
+	<li id="displayvolume"></li>
+ 
+</ul>
+
+</header>
+<div class="filler">
+</div>
+
+<div class="container">
+	<div class='row'>
+		<div class='col-md-1 col-xs-0'></div>
+		<div class='col-md-4 col-xs-10 movie' id='lionking'></div>
+		<div class='col-md-2 col-xs-0'></div>
+		<div class='col-md-4 col-xs-10 movie' id='frozen'></div>
+		<div class='col-md-1 col-xs-0'></div>
+	</div>
+	<div class='row'>
+		<div class='col-md-1 col-xs-0'></div>
+		<div class='col-md-4 col-xs-10 movie' id='aladin'></div>
+		<div class='col-md-2 col-xs-0'></div>
+		<div class='col-md-4 col-xs-10 movie' id='mermaid'></div>
+		<div class='col-md-1 col-xs-0'></div>
+	</div>
+	<div class='row'>
+		<div class='col-md-1 col-xs-0'></div>
+		<div class='col-md-4 col-xs-10 movie' id='hercules'></div>
+		<div class='col-md-2 col-xs-0'></div>
+		<div class='col-md-4 col-xs-10 movie' id='beautybeast'></div>
+		<div class='col-md-1 col-xs-0'></div>
+	</div>
+	
+
+</div>
+
+
+
+
+
+
+<audio id="hakuna">
+  <source src="HakunaMatata.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+<audio id="onejump">
+  <source src="AladdinOneJumpAhead.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+<audio id="beOurGuest">
+  <source src="BeautyBeastBeOurGuest.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+<audio id="letItGo">
+  <source src="FrozenLetItGo.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+<audio id="gospelTruth">
+  <source src="HerculesGospelTruth.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+<audio id="underTheSea">
+  <source src="LittleMermaidUndertheSea.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+
+
+</body>
+
+ 
+</html>
